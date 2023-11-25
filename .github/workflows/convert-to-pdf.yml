@@ -21,8 +21,9 @@ jobs:
           uses: baileyjm02/markdown-to-pdf@v1
           with:
             input_dir: MeTooinChina_SimplifiedChinese
-            output_dir: MeTooinChina_SimplifiedChinese
+            output_dir: MeTooinChina_SimplifiedChinese/
             build_html: false
+            theme: styles/markdown-theme.css
   
         - name: Configure Git
           run: |
